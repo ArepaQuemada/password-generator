@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <h1>Password Generator</h1>
+    <input type="text" name="password" id="pass" placeholder="Password" disabled>
+    <label>Choose the following options: </label>
+    <label for="length">Choose password's length</label>
+    <input type="number" name="length" id="length" value="5">
+    <input type="checkbox" value="upletters" id="upletters">Uppercase Letters
+    <input type="checkbox" value="loletters" id="loletters">Lowercase Letters
+    <input type="checkbox" value="numbers" id="numbers">Numbers
+    <input type="checkbox" value="symbols" id="symbols">Symbols
+
+    <button id="btn">Generate password</button>
+    <script src="validations.js"></script>
+</body>
+</html>
