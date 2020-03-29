@@ -14,12 +14,28 @@
         <input type="text" name="password" id="pass" placeholder="Password" disabled>
         <h3>Choose the following options: </h3>
         <label for="length">Choose password's length</label>
-        <input type="number" name="length" id="length" value="5" min="4" max="10">
-        <input type="checkbox" value="upletters" id="upletters">Uppercase Letters
-        <input type="checkbox" value="loletters" id="loletters">Lowercase Letters
-        <input type="checkbox" value="numbers" id="numbers">Numbers
-        <input type="checkbox" value="symbols" id="symbols">Symbols
-        <button id="btn">Generate password</button>
+        <div>
+            <input type="number" name="length" id="length" value="5" min="4" max="10">
+        </div>
+        <div>
+            <input type="checkbox" value="upletters" id="upletters">
+            <label for="upletters">Uppercase Letters</label>
+        </div>
+        <div>
+        <input type="checkbox" value="loletters" id="loletters">
+        <label for="loletters">Lowercase Letters</label>
+        </div>
+        <div>
+            <input type="checkbox" value="numbers" id="numbers">
+            <label for="numbers">Numbers</label>
+        </div>
+        <div>
+            <input type="checkbox" value="symbols" id="symbols">
+            <label for="symbols">Symbols</label>
+        </div>
+        <div>
+            <button id="btn">Generate password</button>
+        </div>
     </div>
     <script src="validations.js"></script>
 </body>
