@@ -1,12 +1,42 @@
 body {
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 #container {
-    background-color: lightcoral;
+    background-color: #ffffff;
     padding: 1.2rem;
+    margin: 0 auto;
 }
 div {
     padding: 0.3rem;
+}
+
+input {
+    display:inline-block;
+}
+
+#btn {
+	background-color:#44c767;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 1rem;
+	padding:16px 59px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#btn {
+	background-color:#5cbf2a;
+}
+#btn:active {
+	position:relative;
+	top:1px;
 }
